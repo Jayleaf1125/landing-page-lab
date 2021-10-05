@@ -1,1 +1,50 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+background-color: #a58686;
+width: 1440px;
+height: 1024px;
+}
+
+.container-1 {
+    background-color: lavender;
+    text-align: center;
+    position: relative;
+    height: 175px;
+}
+
+.container-2 {
+    background-color: cadetblue;
+    display: inline-block;
+    position: relative;
+    height: 799px;
+    width: 326px;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.white {
+    color: white;
+    
+}
+
+.container-2 h2{
+    position: relative;
+    left: 10px;
+}
+
+.container-3 {
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    width: 1115px;
+    height: 799px;
+}
+
+.container-3 img {
+    height: 400px;
+    width: 300px;
+    position: absolute;
+}
